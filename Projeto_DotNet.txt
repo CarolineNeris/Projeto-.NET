@@ -1,0 +1,396 @@
+commit e3d5be7a1e7ac90df7e964fba41752a9b3d17bd1
+Author: Carol <carolnerisfonseca@gmail.com>
+Date:   Wed Dec 20 22:23:19 2023 -0300
+
+    Criando os user cases
+
+commit c26e80504bb57777ac1aa98d4bbdb8fad0da19b5
+Author: Carol <carolnerisfonseca@gmail.com>
+Date:   Wed Dec 20 22:23:04 2023 -0300
+
+    Importando os Packages, mapper, MediatR e Vadator
+
+commit d7f01bd1c073c4398218d264ed45667d1c2727c4
+Author: Carol <carolnerisfonseca@gmail.com>
+Date:   Wed Dec 20 18:16:35 2023 -0300
+
+    readme da tarefa
+
+commit bb84e258e90d9025ef779c4a791978db9d62f270
+Author: Carol <85597024+CarolineNeris@users.noreply.github.com>
+Date:   Wed Dec 20 17:28:44 2023 -0300
+
+    Create README.md
+    
+    create readme do projeto
+
+commit a6412eb2ef05cd952fed5bcc390e9459855ad819
+Author: Carol <carolnerisfonseca@gmail.com>
+Date:   Wed Dec 20 17:04:58 2023 -0300
+
+    Instrução vídeo 2 implementada
+
+commit e1fc6f550348ec8a816a24eb1c9b717be6ad55ca
+Author: Carol <carolnerisfonseca@gmail.com>
+Date:   Wed Dec 20 16:18:01 2023 -0300
+
+    classes e interfaces
+
+commit 934790b6108e5e6b89fb297259a3ab92421f2acf
+Author: Carol <carolnerisfonseca@gmail.com>
+Date:   Wed Dec 20 16:16:54 2023 -0300
+
+    projeto iniciado
+
+commit 1c2255b8645106d817e3bf9ff1580ebeb36373bf
+Author: Carol <carolnerisfonseca@gmail.com>
+Date:   Wed Dec 20 16:16:20 2023 -0300
+
+    gitignore
+
+commit 8140fcda41fe24eca6830207b4ed03116a9955c1
+Author: Carol <carolnerisfonseca@gmail.com>
+Date:   Wed Dec 20 15:54:57 2023 -0300
+
+    solution criado CleanArchitecture
+
+commit 18f6bdc9cdc72f960a2768f483caa2fc973eeb67
+Author: Carol <carolnerisfonseca@gmail.com>
+Date:   Wed Dec 20 15:46:49 2023 -0300
+
+    Recomeçar
+
+commit a0cd3a2875e2249fceaba8df89cefcdab38c3da3
+Author: Carol <carolnerisfonseca@gmail.com>
+Date:   Tue Dec 19 11:40:12 2023 -0300
+
+    Implementando pastas lógicas
+
+commit fa3e2cf7130e312da90221e9fb31d48d16917873
+Author: Carol <carolnerisfonseca@gmail.com>
+Date:   Tue Dec 19 11:09:16 2023 -0300
+
+    criação gitinore
+
+commit f11f9e740232e04e2b430490437605294e93e8d7
+Author: Carol <85597024+CarolineNeris@users.noreply.github.com>
+Date:   Tue Dec 19 09:54:37 2023 -0300
+
+    Create README.md
+    
+    criado readme da atividade com autores
+
+commit 891899b9aa37b33c82a4f82d4bd21d805d02836b
+Merge: 4cdadad 5e07866
+Author: Luann Firme Bomfim <88903057+luannfirme@users.noreply.github.com>
+Date:   Tue Dec 19 08:42:15 2023 -0300
+
+    Merge pull request #8 from CarolineNeris/DOTNET-P002/id_04-resumo_de_habilidades
+    
+    Dotnet p002/id 04 resumo de habilidades
+
+commit 5e07866cd8b7bc53e8164e64c6ce145c44dff2d0
+Author: Luann Firme <luann.firme@daten.com.br>
+Date:   Tue Dec 19 08:41:12 2023 -0300
+
+    + limpeza de código
+
+commit 38fd3f874bc22860912c70993e1772bcec8baa94
+Author: Luann Firme <luann.firme@daten.com.br>
+Date:   Tue Dec 19 08:40:27 2023 -0300
+
+    limpeza e ajuste de espaçamento no código
+
+commit dd77f253e41227194ad835dd74cf0cf1571bac25
+Author: Luann Firme <luann.firme@daten.com.br>
+Date:   Tue Dec 19 08:38:57 2023 -0300
+
+    parte 04 finalizada
+
+commit 035e1636a1a00a8d0bb4f26ae07bf52c88aa80f7
+Author: Luann Firme Bomfim <88903057+luannfirme@users.noreply.github.com>
+Date:   Tue Dec 19 08:22:07 2023 -0300
+
+    Update README.md
+
+commit 19470e54fb39337405f959f1f70d2aedcc0319c9
+Merge: c038afa 0220d0a
+Author: Luann Firme <luann.firme@daten.com.br>
+Date:   Tue Dec 19 07:58:01 2023 -0300
+
+    Merge branch 'DOTNET-P002/id_04-resumo_de_habilidades' of https://github.com/CarolineNeris/Projeto-.NET into DOTNET-P002/id_04-resumo_de_habilidades
+
+commit c038afa3bfd8b28b74ab17f396d0a130399290b5
+Author: Luann Firme <luann.firme@daten.com.br>
+Date:   Sat Dec 16 14:45:13 2023 -0300
+
+    initial
+
+commit 4cdadade5a6142dfc429251dc899b880fa6f839a
+Merge: d3323f9 dde29e6
+Author: Luann Firme Bomfim <88903057+luannfirme@users.noreply.github.com>
+Date:   Tue Dec 19 07:51:56 2023 -0300
+
+    Merge pull request #6 from CarolineNeris/DOTNET-P002/id_03.victor-quirino
+    
+    Implementando endpoint de skills do roadmap
+
+commit 997700f70f1446ca250cf21026a9255ca9b47a3c
+Author: ricardo <ricardo.dev1991@gmail.com>
+Date:   Tue Dec 19 01:15:50 2023 -0300
+
+    ✨ feat(Criando as Interfaces IUnitOfWork e IUserRepository.):
+
+commit bed18bf6686c0dfc03458b67ef987d483a4bfd01
+Author: ricardo <ricardo.dev1991@gmail.com>
+Date:   Tue Dec 19 01:12:45 2023 -0300
+
+    ✨ feat(Criando a classe Users na pasta Entities e a interface IBaseRepository na pasta Interfaces.):
+
+commit fe4778b7f74f34bbd533860725922d4063ea19a3
+Author: ricardo <ricardo.dev1991@gmail.com>
+Date:   Tue Dec 19 01:04:39 2023 -0300
+
+    ✨ feat(Criando a classe abstrata BaseEntity na camada Domain.):
+
+commit ff10cbaba2bbdf5696641bea345d5293875de788
+Author: ricardo <ricardo.dev1991@gmail.com>
+Date:   Tue Dec 19 00:53:38 2023 -0300
+
+    ✨ feat(Criando a camada Tests):
+
+commit e6617928b2427d7c5c62375dc12af7c6256e17a1
+Author: ricardo <ricardo.dev1991@gmail.com>
+Date:   Tue Dec 19 00:49:49 2023 -0300
+
+    ✨ feat(Criando projeto Persistence na camada Infrastructure e o projeto WebApi na camada Presentation.):
+
+commit 40362be82cc95f64b2f35198ac0c9de12be6b957
+Author: ricardo <ricardo.dev1991@gmail.com>
+Date:   Tue Dec 19 00:42:39 2023 -0300
+
+    ✨ feat(Criando o projeto Application na camada Core.):
+
+commit f93c5877ff78f9d32537e4993a4e155083afd7ce
+Author: ricardo <ricardo.dev1991@gmail.com>
+Date:   Tue Dec 19 00:27:20 2023 -0300
+
+    ✨ feat(Criando a camada Core e adicionando o solution ao projeto.):
+
+commit 9037d885aacfd22e10720c4bdd2947e0bfc1c755
+Author: ricardo <ricardo.dev1991@gmail.com>
+Date:   Tue Dec 19 00:17:39 2023 -0300
+
+    ✨ feat(Iniciando a branch com o Solution específico do projeto.):
+
+commit 090eeb53aca34b5d7109b28c7fa9c201f8549605
+Author: Carol <85597024+CarolineNeris@users.noreply.github.com>
+Date:   Mon Dec 18 23:08:09 2023 -0300
+
+    Update README.md
+    
+    nome dos autores
+
+commit a83d80cebd79e9873971d272906e9c521df68c63
+Author: Carol <85597024+CarolineNeris@users.noreply.github.com>
+Date:   Mon Dec 18 22:51:05 2023 -0300
+
+    Update README.md
+    
+    readm do que foi pedido, em breve devemos inlcuir o que foi feito
+
+commit 4352a70cff020f8f77975696bbdb32aec7f9ca74
+Author: Carol <carolnerisfonseca@gmail.com>
+Date:   Mon Dec 18 22:07:49 2023 -0300
+
+    removendo todos arquivos
+
+commit caa442e65b9939e42f4702c3b066671d7fdad8ba
+Merge: 95e2eb7 edad032
+Author: Carol <carolnerisfonseca@gmail.com>
+Date:   Mon Dec 18 21:49:33 2023 -0300
+
+    Merge branch 'main' of https://github.com/CarolineNeris/Projeto-.NET
+
+commit 95e2eb78fa332156ac704e2fb98cf74192290434
+Author: Carol <carolnerisfonseca@gmail.com>
+Date:   Mon Dec 18 21:49:11 2023 -0300
+
+    resetando
+
+commit dde29e675a67d1490eb017072247eb95a5a33f9c
+Author: Víctor Quirino <victorsouzaq@gmail.com>
+Date:   Mon Dec 18 17:14:28 2023 -0300
+
+    Implementando endpoint de skills do roadmap
+
+commit 0220d0a077659ea4a7dcadef74aa1c6486d33be3
+Merge: d7d7ff4 d3323f9
+Author: Luann Firme <luann.firme@daten.com.br>
+Date:   Mon Dec 18 07:36:44 2023 -0300
+
+    Merge branch 'Roadmap_ASP_NET_CORE' of https://github.com/CarolineNeris/Projeto-.NET into DOTNET-P002/id_04-resumo_de_habilidades
+
+commit d3323f92174edc663ab03dff37328d9fbf7a8725
+Author: Carol <carolnerisfonseca@gmail.com>
+Date:   Sun Dec 17 23:55:59 2023 -0300
+
+    incluindo Anacaroline ao roadmap
+
+commit 9f696b93c401e9d8c9950682ce886ec9838fc05e
+Author: Carol <carolnerisfonseca@gmail.com>
+Date:   Sun Dec 17 23:55:07 2023 -0300
+
+    Incluindo arquivo deletado
+
+commit 0c1b4d53bf04053a3ab165997031c14e1750e283
+Merge: 873e000 1865f89
+Author: Caio Gonçalves <caio.goncalves.cic@gmail.com>
+Date:   Sat Dec 16 15:16:28 2023 -0300
+
+    Merge branch 'Roadmap_ASP_NET_CORE' of https://github.com/CarolineNeris/Projeto-.NET into Roadmap_ASP_NET_CORE
+
+commit 873e0003d34c3faf4b7c2601b68d9cb60b68a54d
+Author: Caio Gonçalves <caio.goncalves.cic@gmail.com>
+Date:   Sat Dec 16 15:14:32 2023 -0300
+
+    implementing skill listing endpoint
+
+commit 1865f89a23421b42b37ee742863176c153850106
+Merge: 6ed22cf aef8566
+Author: Luann Firme Bomfim <88903057+luannfirme@users.noreply.github.com>
+Date:   Sat Dec 16 14:57:13 2023 -0300
+
+    Merge pull request #5 from CarolineNeris/DOTNET-P002/id_03.luann-firme
+    
+    Dotnet p002/id 03.luann firme
+
+commit aef85668d55917dbba7088e640bac447aa8a2237
+Merge: 5085445 6ed22cf
+Author: Luann Firme Bomfim <88903057+luannfirme@users.noreply.github.com>
+Date:   Sat Dec 16 14:57:05 2023 -0300
+
+    Merge branch 'Roadmap_ASP_NET_CORE' into DOTNET-P002/id_03.luann-firme
+
+commit 6ed22cff8a251670fc926815d4cf6cafdb2e31e4
+Merge: 2794441 23cbf9a
+Author: Luann Firme Bomfim <88903057+luannfirme@users.noreply.github.com>
+Date:   Sat Dec 16 14:54:13 2023 -0300
+
+    Merge pull request #2 from CarolineNeris/DOTNET-P002/id_3.paulo-ricardo
+    
+    ✨ feat(Implementando a tarefa de ID_3: Criação da classe estática e a…
+
+commit 5085445ca719778b8b8719044928b418b4ffc6ec
+Author: Luann Firme <luann.firme@daten.com.br>
+Date:   Sat Dec 16 14:46:57 2023 -0300
+
+    Edit Stars
+
+commit d7d7ff42f4bf6586557bb309cbd0500c4211b62c
+Author: Luann Firme <luann.firme@daten.com.br>
+Date:   Sat Dec 16 14:45:13 2023 -0300
+
+    initial
+
+commit 6c8edd1a5e23a1c9b696ce3b99df10e4a1c74265
+Author: Luann Firme <luann.firme@daten.com.br>
+Date:   Sat Dec 16 14:39:10 2023 -0300
+
+    Finalização
+
+commit 6d929c48060a7c8318adafa8e388511360bba297
+Author: Luann Firme <luann.firme@daten.com.br>
+Date:   Sat Dec 16 14:36:42 2023 -0300
+
+    Finalização
+
+commit 586fde9c5bbe70a64c1d1360a730c4c9d301553a
+Author: luannfirme <luannfirme@gmail.com>
+Date:   Fri Dec 15 17:19:37 2023 -0300
+
+    Initial project
+
+commit 80fbceefd86eb73628ae7a4a586cd9c8e08e2b31
+Author: luannfirme <luannfirme@gmail.com>
+Date:   Fri Dec 15 16:36:47 2023 -0300
+
+    update
+
+commit d623c0fbaf20478e5b8e9c9261e31c34bc98b6df
+Author: luannfirme <luannfirme@gmail.com>
+Date:   Fri Dec 15 16:35:58 2023 -0300
+
+    update
+
+commit edad03255742aadf6994280894ab2560730b4054
+Merge: eb24b22 c091aef
+Author: Carol <85597024+CarolineNeris@users.noreply.github.com>
+Date:   Thu Dec 14 23:36:02 2023 -0300
+
+    Merge pull request #4 from CarolineNeris/DOTNET-P002/id_03.ana-caroline
+    
+    Dotnet p002/id 03.ana caroline
+
+commit c091aeff63548c43a5fc3d3ca03920cc466fc1ce
+Author: Carol <carolnerisfonseca@gmail.com>
+Date:   Thu Dec 14 23:31:42 2023 -0300
+
+    correção bug
+
+commit 7ab6ba616710e085d77a3be15c288a490d2d23e9
+Author: Carol <carolnerisfonseca@gmail.com>
+Date:   Thu Dec 14 23:05:53 2023 -0300
+
+    subindo primeira versão
+
+commit ebf3590d01d4063b7f792917979d3b7fd039cd25
+Author: Carol <carolnerisfonseca@gmail.com>
+Date:   Thu Dec 14 23:05:07 2023 -0300
+
+    solution criada
+
+commit eb24b223a015c2bcf5fb33a1149a1149943e4dcc
+Merge: f8da32e 2794441
+Author: Carol <85597024+CarolineNeris@users.noreply.github.com>
+Date:   Thu Dec 14 22:27:43 2023 -0300
+
+    Merge pull request #3 from CarolineNeris/DOTNET_P002/id.ana-caroline
+    
+    🎉Criando branch a partir da web limpo
+
+commit 23cbf9a0e59160de31a0feb001514e49fa360d29
+Author: ricardo <ricardo.dev1991@gmail.com>
+Date:   Thu Dec 14 22:05:33 2023 -0300
+
+    ✨ feat(Implementando a tarefa de ID_3: Criação da classe estática e a rota para visualização das habilidades do residente Paulo Ricardo.):
+
+commit 2794441ab93440a3b9a2dd6f312db7137f73d3bf
+Author: ricardo <ricardo.dev1991@gmail.com>
+Date:   Thu Dec 14 20:44:43 2023 -0300
+
+    🎉 init(Iniciando estrutura básica ASP.NET CORE para atividade em equipe.):
+
+commit 2978978040f5cce4100db76777ceee9501353ac4
+Author: Caroline Fonseca <carolnerisfonseca@gmail.com>
+Date:   Tue Dec 12 17:29:16 2023 -0300
+
+    criando web
+
+commit d2558ba5d41ed8e2bca817d43e720d607e7accfd
+Author: Caroline Fonseca <carolnerisfonseca@gmail.com>
+Date:   Tue Dec 12 17:11:08 2023 -0300
+
+    inicciando
+
+commit f8da32e7a26939490f36b63549733850ec289f37
+Author: Carol <85597024+CarolineNeris@users.noreply.github.com>
+Date:   Tue Dec 12 16:52:24 2023 -0300
+
+    Update README.md
+
+commit 920014e931e8a97c737983cce6043878016d7eed
+Author: Carol <85597024+CarolineNeris@users.noreply.github.com>
+Date:   Tue Dec 12 16:47:59 2023 -0300
+
+    Create README.md
