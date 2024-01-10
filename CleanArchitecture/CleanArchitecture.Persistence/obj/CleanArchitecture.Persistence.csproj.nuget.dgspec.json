@@ -4,14 +4,71 @@
     "/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Persistence/CleanArchitecture.Persistence.csproj": {}
   },
   "projects": {
-    "/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Persistence/CleanArchitecture.Persistence.csproj": {
+    "/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Application/CleanArchitecture.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Persistence/CleanArchitecture.Persistence.csproj",
-        "projectName": "CleanArchitecture.Persistence",
-        "projectPath": "/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Persistence/CleanArchitecture.Persistence.csproj",
+        "projectUniqueName": "/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Application/CleanArchitecture.Application.csproj",
+        "projectName": "CleanArchitecture.Application",
+        "projectPath": "/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Application/CleanArchitecture.Application.csproj",
         "packagesPath": "/home/victorquirino/.nuget/packages/",
-        "outputPath": "/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Persistence/obj/",
+        "outputPath": "/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/victorquirino/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Domain/CleanArchitecture.Domain.csproj": {
+                "projectPath": "/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Domain/CleanArchitecture.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/var/run/host/usr/lib/dotnet/sdk/7.0.114/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Domain/CleanArchitecture.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Domain/CleanArchitecture.Domain.csproj",
+        "projectName": "CleanArchitecture.Domain",
+        "projectPath": "/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Domain/CleanArchitecture.Domain.csproj",
+        "packagesPath": "/home/victorquirino/.nuget/packages/",
+        "outputPath": "/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/victorquirino/.nuget/NuGet/NuGet.Config"
@@ -37,6 +94,69 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/var/run/host/usr/lib/dotnet/sdk/7.0.114/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Persistence/CleanArchitecture.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Persistence/CleanArchitecture.Persistence.csproj",
+        "projectName": "CleanArchitecture.Persistence",
+        "projectPath": "/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Persistence/CleanArchitecture.Persistence.csproj",
+        "packagesPath": "/home/victorquirino/.nuget/packages/",
+        "outputPath": "/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/victorquirino/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Application/CleanArchitecture.Application.csproj": {
+                "projectPath": "/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Application/CleanArchitecture.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
