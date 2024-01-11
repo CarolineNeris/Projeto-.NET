@@ -1,8 +1,9 @@
 using CleanArchitecture.Presentation.Context;
+using Domain.Interfaces;
 
 namespace CleanArchitecture.Presentation.Repositories;
 
-public class UnitOfWork
+public class UnitOfWork : IUnitOfWork
 {
     private readonly AppDbContext _context;
 
