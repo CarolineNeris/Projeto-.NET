@@ -5,7 +5,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="UseCases\CreateUser\" />
     <Folder Include="UseCases\DeleteUser\" />
     <Folder Include="UseCases\GetAllUser\" />
     <Folder Include="UseCases\UpdateUser\" />
