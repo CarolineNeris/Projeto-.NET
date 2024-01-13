@@ -7,7 +7,7 @@ namespace CleanArchitecture.Domain.Interfaces
         void Create(T entity);
         void Update(T entity);
         void Delete(T entity);
-        Task<T> Get(Guid Id, CancellationToken cancellationToken);
+        Task<T> Get(Guid id, CancellationToken cancellationToken);
         Task<List<T>> GetAll(CancellationToken cancellationToken);
     }
 }
