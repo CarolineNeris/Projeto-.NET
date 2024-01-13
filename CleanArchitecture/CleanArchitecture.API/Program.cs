@@ -1,3 +1,4 @@
+using CleanArchitecture.API.Extensions;
 using CleanArchitecture.Application.Services;
 using CleanArchitecture.Presentation;
 using CleanArchitecture.Presentation.Context;
@@ -6,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.ConfigurePersistenceApp(builder.Configuration);
 builder.Services.ConfigureApplicationApp();
+builder.Services.ConfigureCorsPolicy();
 
 // Add services to the container.
 
@@ -21,10 +23,7 @@ CreateDatabase(app);
 app.UseSwagger();
 app.UseSwaggerUI();
 
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
+app.UseCors();
 app.MapControllers();
 
 app.Run();
