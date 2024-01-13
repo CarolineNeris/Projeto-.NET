@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HmEwIEJgLEgIJwjTSkRnDJPvbvDHOVMJPYDzzxGjyrWA1cXjJegUT2BM5Zja4ftoS1YKWQu0BZe0kQNEyuj8Pg==",
+  "dgSpecHash": "662IWCnLopAgG3oElkvN3SV5dirROdKttvbTtpyHDa2Hn7+GAxUjUWbgPa9LV5nxJNszz81J8+y2icoMfjbrQA==",
   "success": true,
   "projectFilePath": "/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Tests/CleanArchitecture.Tests.csproj",
   "expectedPackageFiles": [

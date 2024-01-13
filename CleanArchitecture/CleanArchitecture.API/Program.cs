@@ -1,4 +1,11 @@
+using CleanArchitecture.Application.Services;
+using CleanArchitecture.Presentation;
+using CleanArchitecture.Presentation.Context;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.ConfigurePersistenceApp(builder.Configuration);
+builder.Services.ConfigureApplicationApp();
 
 // Add services to the container.
 
@@ -9,12 +16,10 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+CreateDatabase(app);
+
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 
@@ -23,3 +28,10 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+static void CreateDatabase(WebApplication app)
+{
+    var serviceScope = app.Services.CreateScope();
+    var dataContext = serviceScope.ServiceProvider.GetService<AppDbContext>();
+    dataContext?.Database.EnsureCreated();
+}

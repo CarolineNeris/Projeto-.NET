@@ -1,0 +1,17 @@
+/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Persistence/bin/Debug/net7.0/CleanArchitecture.Persistence.deps.json
+/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Persistence/bin/Debug/net7.0/CleanArchitecture.Persistence.dll
+/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Persistence/bin/Debug/net7.0/CleanArchitecture.Persistence.pdb
+/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Persistence/bin/Debug/net7.0/CleanArchitecture.Application.dll
+/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Persistence/bin/Debug/net7.0/CleanArchitecture.Domain.dll
+/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Persistence/bin/Debug/net7.0/CleanArchitecture.Application.pdb
+/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Persistence/bin/Debug/net7.0/CleanArchitecture.Domain.pdb
+/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Persistence/obj/Debug/net7.0/CleanArchitecture.Persistence.csproj.AssemblyReference.cache
+/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Persistence/obj/Debug/net7.0/CleanArchitecture.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Persistence/obj/Debug/net7.0/CleanArchitecture.Persistence.AssemblyInfoInputs.cache
+/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Persistence/obj/Debug/net7.0/CleanArchitecture.Persistence.AssemblyInfo.cs
+/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Persistence/obj/Debug/net7.0/CleanArchitecture.Persistence.csproj.CoreCompileInputs.cache
+/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Persistence/obj/Debug/net7.0/CleanArchitecture.Persistence.csproj.CopyComplete
+/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Persistence/obj/Debug/net7.0/CleanArchitecture.Persistence.dll
+/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Persistence/obj/Debug/net7.0/refint/CleanArchitecture.Persistence.dll
+/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Persistence/obj/Debug/net7.0/CleanArchitecture.Persistence.pdb
+/home/victorquirino/ResidênciaTic18/DotNet/Projeto-.NET/CleanArchitecture/CleanArchitecture.Persistence/obj/Debug/net7.0/ref/CleanArchitecture.Persistence.dll
