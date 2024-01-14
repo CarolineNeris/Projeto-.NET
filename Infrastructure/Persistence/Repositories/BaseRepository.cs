@@ -1,9 +1,9 @@
-﻿using CleanArchitecture.Presentation.Context;
-using Domain.Entities;
-using Domain.Interfaces;
+﻿using CleanArchitecture.Domain.Common;
+using CleanArchitecture.Domain.Interfaces;
+using CleanArchitecture.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
 
-namespace CleanArchitecture.Presentation.Repositories;
+namespace CleanArchitecture.Persistence.Repositories;
 
 public class BaseRepository<T> : IBaseRepository<T> where T : BaseEntity
 {

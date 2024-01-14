@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Presentation.Context;
-using Domain.Interfaces;
+﻿using CleanArchitecture.Domain.Interfaces;
+using CleanArchitecture.Persistence.Context;
 
-namespace CleanArchitecture.Presentation.Repositories;
+namespace CleanArchitecture.Persistence.Repositories;
 
 public class UnitOfWork : IUnitOfWork
 {
@@ -11,7 +11,6 @@ public class UnitOfWork : IUnitOfWork
     {
         _context = context;
     }
-
     public async Task Commit(CancellationToken cancellationToken)
     {
         await _context.SaveChangesAsync(cancellationToken);

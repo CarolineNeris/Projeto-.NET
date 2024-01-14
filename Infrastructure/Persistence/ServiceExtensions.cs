@@ -1,11 +1,12 @@
-﻿using CleanArchitecture.Presentation.Context;
-using CleanArchitecture.Presentation.Repositories;
-using Domain.Interfaces;
+﻿using CleanArchitecture.Domain.Interfaces;
+using CleanArchitecture.Persistence.Context;
+using CleanArchitecture.Persistence.Repositories;
+
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CleanArchitecture.Presentation;
+namespace CleanArchitecture.Persistence;
 
 public static class ServiceExtensions
 {
