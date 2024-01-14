@@ -14,8 +14,4 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Infrastructure\CleanArchitecture.Persistence\CleanArchitecture.Persistence.csproj" />
   </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Extensions/" />
-  </ItemGroup>
 </Project>
