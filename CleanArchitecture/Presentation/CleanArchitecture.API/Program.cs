@@ -1,11 +1,13 @@
 using CleanArchitecture.Persistence.Context;
 using CleanArchitecture.Persistence;
 using CleanArchitecture.Application.Services;
+using CleanArchitecture.WebAPI.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.ConfigurePersistenseApp(builder.Configuration);
 builder.Services.ConfigureApplicationApp();
+builder.Services.ConfigureCorsPolicy();
 
 builder.Services.AddControllers();
 
@@ -25,7 +27,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-
+app.UseCors();
 app.MapControllers();
 
 app.Run();
