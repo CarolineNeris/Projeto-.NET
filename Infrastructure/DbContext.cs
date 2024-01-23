@@ -4,6 +4,8 @@ namespace Infrastructure;
 public class ResTICDbContext : DbContext
 {
     public DbSet<Log> Logs { get; set; }
+    public DbSet<Perfil> Perfils { get; set; }
+    public DbSet<Endereco> Enderecos { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
@@ -18,5 +20,7 @@ public class ResTICDbContext : DbContext
     {
         base.OnModelCreating(modelBuilder);
         modelBuilder.Entity<Log>().ToTable("Logs").HasKey(l => l.Id);
+        modelBuilder.Entity<Perfil>().ToTable("Perfils").HasKey(p => p.Id);
+        modelBuilder.Entity<Endereco>().ToTable("Enderecos").HasKey(e => e.Id);
     }
 }
