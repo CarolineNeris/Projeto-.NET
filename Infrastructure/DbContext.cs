@@ -8,6 +8,7 @@ public class ResTICDbContext : DbContext
     public int EnderecoId { get; set; }
     public DbSet<Endereco> Enderecos { get; set; }
     public DbSet<Usuario> Usuarios { get; set;}
+    public DbSet<Evento> Eventos { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
