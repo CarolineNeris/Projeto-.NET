@@ -9,4 +9,6 @@ public class Endereco : BaseEntity {
     public required string Estado { get; set; }
     public required string Cep { get; set; }
     public required string Pais { get; set; }
+    public int UsuarioId { get; set; }
+    public Usuario Usuario { get; set; }
 }

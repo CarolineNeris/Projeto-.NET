@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastru
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestTIConnect", "RestTIConnect\RestTIConnect.csproj", "{0FB8BAA0-1F28-4FFC-832F-ABED0D4A7A85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResTIConnect_EFCore", "ResTIConnect_EFCore\ResTIConnect_EFCore.csproj", "{FD062AC0-5267-4EFF-907F-5F2896197CBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0FB8BAA0-1F28-4FFC-832F-ABED0D4A7A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FB8BAA0-1F28-4FFC-832F-ABED0D4A7A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FB8BAA0-1F28-4FFC-832F-ABED0D4A7A85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD062AC0-5267-4EFF-907F-5F2896197CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD062AC0-5267-4EFF-907F-5F2896197CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD062AC0-5267-4EFF-907F-5F2896197CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD062AC0-5267-4EFF-907F-5F2896197CBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
