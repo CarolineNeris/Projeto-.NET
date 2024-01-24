@@ -15,8 +15,19 @@ var user = new Usuario {
     Email = "fulano@email.com",
     Senha = "admin",
     Telefone = "1234-5678",
+    Endereco = new Endereco {
+        Logradouro = "Rua teste",
+        Numero = "100",
+        Cidade = "Ilhéus",
+        Complemento = "Casa",
+        Bairro = "Bairro teste",
+        Estado = "Bahia",
+        Cep = "12345-678",
+        Pais = "Brasil"
+    },
     Perfis = new List<Perfil>()
 };
+user.Endereco.Usuario = user;
 
 context.Usuarios.Add(user);
 context.SaveChanges();
@@ -28,6 +39,7 @@ context.Usuarios.ToList().ForEach(
       Console.WriteLine($"Nome: {u.Nome}");
       Console.WriteLine($"Apelido: {u.Apelido}");
       Console.WriteLine($"Email: {u.Email}");
+      Console.WriteLine($"Endereço: {u.Endereco.Logradouro}, {u.Endereco.Bairro} - {u.Endereco.Cidade} - {u.Endereco.Pais}");
       Console.WriteLine();
     } 
 );
