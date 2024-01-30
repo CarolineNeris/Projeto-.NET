@@ -9,4 +9,7 @@ public class Evento : BaseEntity
     public required string Codigo { get; set; }
     public required string Conteudo { get; set; }
     public required DateTime DataHoraOcorrencia { get; set; }
+
+    public required ICollection<Sistema> Sistemas { get; set; }
+
 }
