@@ -8,11 +8,14 @@ public class ResTICDbContext : DbContext
     public int EnderecoId { get; set; }
     public DbSet<Endereco> Enderecos { get; set; }
     public DbSet<Usuario> Usuarios { get; set;}
+    public DbSet<Evento> Eventos { get; set; }
+
+    public DbSet<Sistema> Sistema {get; set;}
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         base.OnConfiguring(optionsBuilder);
-        var connectionString = "server=localhost;user=root;password=Root12345#;database=ResTIConnect";
+        var connectionString = "server=localhost;user=root;password=123456;database=sei_la";
         var serverVersion = ServerVersion.AutoDetect(connectionString);
 
         optionsBuilder.UseMySql(connectionString, serverVersion);
@@ -29,5 +32,8 @@ public class ResTICDbContext : DbContext
         modelBuilder.Entity<Usuario>().HasOne(u => u.Endereco).WithOne(e => e.Usuario).HasForeignKey<Usuario>(u => u.EnderecoId);
         modelBuilder.Entity<Usuario>().HasMany(u => u.Perfis).WithOne(p => p.Usuario);
         modelBuilder.Entity<Perfil>().HasOne(p => p.Usuario).WithMany(u => u.Perfis).HasForeignKey(p => p.UsuarioId);
+        modelBuilder.Entity<Sistema>().HasMany(p=> p.Eventos).WithMany(u=> u.Sistemas);
+        modelBuilder.Entity<Sistema>().HasMany(p=> p.Usuarios).WithMany(u=> u.Sistemas);
     }
+
 }

@@ -12,4 +12,6 @@ public class Usuario : BaseEntity
     public int? EnderecoId { get; set; }
     public Endereco Endereco { get; set; }
     public required ICollection<Perfil> Perfis { get; set; }
+
+    public required ICollection<Sistema> Sistemas { get; set; }
 }
