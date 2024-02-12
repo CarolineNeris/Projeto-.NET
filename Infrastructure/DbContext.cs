@@ -15,7 +15,7 @@ public class ResTICDbContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         base.OnConfiguring(optionsBuilder);
-        var connectionString = "server=localhost;user=root;password=123456;database=sei_la";
+        var connectionString = "server=localhost;user=root;password=123456;database=techmed";
         var serverVersion = ServerVersion.AutoDetect(connectionString);
 
         optionsBuilder.UseMySql(connectionString, serverVersion);
