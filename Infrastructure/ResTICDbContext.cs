@@ -12,15 +12,14 @@ public class ResTICDbContext : DbContext
 
     public DbSet<Sistema> Sistema {get; set;}
 
+    public ResTICDbContext(DbContextOptions<ResTICDbContext> options) : base(options)
+    {
+    }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         base.OnConfiguring(optionsBuilder);
-        var connectionString = "server=localhost;user=root;password=123456;database=techmed";
-        var serverVersion = ServerVersion.AutoDetect(connectionString);
-
-        optionsBuilder.UseMySql(connectionString, serverVersion);
     }
-
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
@@ -31,7 +30,7 @@ public class ResTICDbContext : DbContext
 
         modelBuilder.Entity<Usuario>().HasOne(u => u.Endereco).WithOne(e => e.Usuario).HasForeignKey<Usuario>(u => u.EnderecoId);
         modelBuilder.Entity<Usuario>().HasMany(u => u.Perfis).WithOne(p => p.Usuario);
-        modelBuilder.Entity<Perfil>().HasOne(p => p.Usuario).WithMany(u => u.Perfis).HasForeignKey(p => p.UsuarioId);
+        modelBuilder.Entity<Perfil>().HasOne(p => p.Usuario).WithMany(u => u.Perfis).HasForeignKey(p => p.UsuarioId).IsRequired(false);
         modelBuilder.Entity<Sistema>().HasMany(p=> p.Eventos).WithMany(u=> u.Sistemas);
         modelBuilder.Entity<Sistema>().HasMany(p=> p.Usuarios).WithMany(u=> u.Sistemas);
     }
