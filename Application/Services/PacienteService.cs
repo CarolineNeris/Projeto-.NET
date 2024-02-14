@@ -18,7 +18,8 @@ public class PacienteService : IPacienteService
         var _paciente = new Paciente{
             Nome = paciente.Nome,
             Cpf = paciente.Cpf,
-            DataNascimento = paciente.DataNascimento
+            DataNascimento = paciente.DataNascimento,
+            CreatedAt = DateTime.Now
         };
 
         _context.Pacientes.Add(_paciente);
@@ -29,17 +30,15 @@ public class PacienteService : IPacienteService
 
     public void Delete(int id)
     {
-        _context.Pacientes.Remove(GetByDbId(id));
+        var paciente = GetByDbId(id);
+        paciente.DeletedAt = DateTime.Now;
+        _context.Pacientes.Remove(paciente);
         _context.SaveChanges();
     }
 
     public List<PacienteViewModel> GetAll()
     {
-        var pacientes = _context.Pacientes.Select(p => new PacienteViewModel {
-            Id = p.Id,
-            Nome = p.Nome,
-            Cpf = p.Cpf
-        }).ToList();
+        var pacientes = _context.Pacientes.Select(p => new PacienteViewModel (p)).ToList();
 
         return pacientes;
     }
@@ -48,13 +47,7 @@ public class PacienteService : IPacienteService
     {
         var paciente = GetByDbId(id);
 
-        return new PacienteViewModel
-        {
-            Id = paciente.Id,
-            Nome = paciente.Nome,
-            Cpf = paciente.Cpf,
-            DataNascimento = paciente.DataNascimento
-        };
+        return new PacienteViewModel(paciente);
     }
 
     public void Update(int id, NewPacienteInputModel paciente)
@@ -64,6 +57,7 @@ public class PacienteService : IPacienteService
         _paciente.Nome = paciente.Nome;
         _paciente.Cpf = paciente.Cpf;
         _paciente.DataNascimento = paciente.DataNascimento;
+        _paciente.UpdatedAt = DateTime.Now;
 
         _context.Pacientes.Update(_paciente);
         _context.SaveChanges();
