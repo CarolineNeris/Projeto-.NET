@@ -7,7 +7,7 @@ public interface IPacienteService
 {
     public List<PacienteViewModel> GetAll();
     public PacienteViewModel? GetById(int id);
-    public int Create(NewPacienteInputModel medico);
-    public void Update(int id, NewPacienteInputModel medico);
+    public int Create(NewPacienteInputModel paciente);
+    public void Update(int id, NewPacienteInputModel paciente);
     public void Delete(int id);
 }
