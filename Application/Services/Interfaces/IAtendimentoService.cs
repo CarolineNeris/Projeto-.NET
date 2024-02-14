@@ -1,0 +1,13 @@
+using Application.InputModels;
+using Application.ViewModels;
+
+namespace Application.Services.Interfaces;
+
+public interface IAtendimentoService
+{
+    public List<AtendimentoViewModel> GetAll();
+    public AtendimentoViewModel? GetById(int id);
+    public List<AtendimentoViewModel> GetByPacienteId(int pacienteId);
+    public List<AtendimentoViewModel> GetByMedicoId(int medicoId);
+    public int Create(NewAtendimentoInputModel atendimento);
+}
