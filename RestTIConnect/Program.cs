@@ -1,4 +1,5 @@
 using Application.Config.AutoMapper;
+using Application.Interfaces;
 using Application.Services;
 using Application.ViewModels;
 using ApplicationI.InputModels;
@@ -17,6 +18,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IPerfilService, PerfilService>();
+builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 
 builder.Services.AddDbContext<ResTICDbContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"), 
