@@ -1,4 +1,5 @@
-﻿using Application.ViewModels;
+﻿using Application.InputModels;
+using Application.ViewModels;
 using ApplicationI.InputModels;
 using AutoMapper;
 using Domain.Entities;
@@ -11,5 +12,8 @@ public class MappingProfile : Profile
     {
         CreateMap<PerfilInputModel, Perfil>();
         CreateMap<Perfil, PerfilViewModel>();
+
+        CreateMap<UsuarioInputModel, Usuario>();
+        CreateMap<Usuario, UsuarioViewModel>();
     }
 }

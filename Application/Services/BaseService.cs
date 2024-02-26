@@ -8,7 +8,7 @@ public class BaseService<TViewModel, TEntity, TInputModel> : IBaseService<TViewM
     where TInputModel : class
 {
     protected readonly ResTICDbContext _context;
-    private readonly IMapper _mapper;
+    protected readonly IMapper _mapper;
 
     public BaseService(ResTICDbContext context, IMapper mapper)
     {
