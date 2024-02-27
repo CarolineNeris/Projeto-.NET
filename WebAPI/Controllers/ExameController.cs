@@ -1,6 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using Infrastructure.Persistence.Interfaces;
-using Core.Entities;
 using Application.Services.Interfaces;
 using Application.ViewModels;
 using Application.InputModels;
