@@ -15,5 +15,8 @@ public class MappingProfile : Profile
 
         CreateMap<UsuarioInputModel, Usuario>();
         CreateMap<Usuario, UsuarioViewModel>();
+
+        CreateMap<EnderecoInputModel, Endereco>();
+        CreateMap<Endereco, EnderecoViewModel>();
     }
 }
