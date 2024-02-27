@@ -7,5 +7,5 @@ public class UsuarioViewModel
     public string Apelido { get; set; }
     public string Email { get; set; }
     public string Telefone { get; set; }
-    // public EnderecoViewModel Endereco { get; set; }
+    public EnderecoViewModel Endereco { get; set; }
 }
