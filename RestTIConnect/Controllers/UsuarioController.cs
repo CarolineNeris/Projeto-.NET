@@ -18,7 +18,7 @@ public class UsuarioController : ControllerBase
     [HttpGet]
     public async Task<IActionResult> GetAll()
     {
-        var usuarios = await _usuarioService.GetAllAsync();
+        var usuarios = await _usuarioService.GetAllUsuariosAsync();
         return Ok(usuarios);
     }
 
