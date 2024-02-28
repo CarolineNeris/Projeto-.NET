@@ -4,13 +4,25 @@ using Application.ViewModels;
 using AutoMapper;
 using Domain.Entities;
 using Infrastructure;
+using Infrastructure.Auth;
 
 namespace Application.Services;
 
 public class UsuarioService : BaseService<UsuarioViewModel, Usuario, UsuarioInputModel>, IUsuarioService
 {
-    public UsuarioService(ResTICDbContext context, IMapper mapper) : base(context, mapper)
+   private readonly IAuthService _authService;
+
+    public UsuarioService(ResTICDbContext context, IMapper mapper, IAuthService authService) : base(context, mapper)
     {
+        _authService = authService;
+    }
+
+    public async Task<UsuarioViewModel> CreateUser(UsuarioInputModel model)
+    {
+        model.Senha = _authService.ComputeSha256Hash(model.Senha);
+        var usuario = await InsertAsync(model);
+
+        return usuario;
     }
 
     public async Task<PerfilViewModel?> AddPerfil(int usuarioId, int perfilId)

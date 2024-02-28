@@ -1,12 +1,14 @@
 using Application.InputModels;
 using Application.Interfaces;
 using Application.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controller;
 
 [ApiController]
 [Route("endereco")]
+[Authorize]
 public class EnderecoController : ControllerBase
 {
     private readonly IEnderecoService _enderecoService;
