@@ -1,11 +1,13 @@
 using Application.InputModels;
 using Application.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controller;
 
 [ApiController]
 [Route("evento")]
+[Authorize(Roles = "Admin")]
 public class EventoController : ControllerBase
 {
     private readonly IEventoService _eventoService;

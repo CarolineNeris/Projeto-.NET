@@ -1,11 +1,13 @@
 using Application.InputModels;
 using Application.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controller;
 
 [ApiController]
 [Route("sistema")]
+[Authorize(Roles = "Admin")]
 public class SistemaController : ControllerBase
 {
     private readonly ISistemaService _sistemaService;
