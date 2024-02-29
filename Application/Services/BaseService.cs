@@ -42,7 +42,7 @@ public class BaseService<TViewModel, TEntity, TInputModel> : IBaseService<TViewM
         var entity = await _context.Set<TEntity>().FindAsync(id);
         if (entity == null)
         {
-            throw new NotImplementedException();
+            return null;
         }
 
         _mapper.Map(model, entity);

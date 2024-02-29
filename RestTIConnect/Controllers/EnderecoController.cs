@@ -43,7 +43,7 @@ public class EnderecoController : ControllerBase
     public async Task<IActionResult> Update(int id, [FromBody] EnderecoInputModel enderecoInputModel)
     {
         var endereco = await _enderecoService.UpdateAsync(id, enderecoInputModel);
-        return Ok(endereco);
+        return endereco is not null ? Ok(endereco) : NotFound();
     }
 
     [HttpDelete("{id}")]
