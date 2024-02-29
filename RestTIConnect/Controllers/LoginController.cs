@@ -15,9 +15,9 @@ public class LoginController : ControllerBase
    } 
 
    [HttpPost("login")]
-   public IActionResult Post([FromBody] LoginInputModel login)
+   public async Task<IActionResult> Post([FromBody] LoginInputModel login)
    {
-      var result = _loginService.AuthenticateAsync(login);
+      var result = await _loginService.AuthenticateAsync(login);
       if (result is not null)
          return Ok(result);
       else

@@ -1,11 +1,13 @@
 ﻿using Application.ViewModels;
 using ApplicationI.InputModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace TechMed.WebAPI.Controllers;
 
 [ApiController]
 [Route("perfil")]
+[Authorize]
 public class PerfilController : ControllerBase
 {
 private readonly IPerfilService _perfilService;
