@@ -40,7 +40,7 @@ public class EventoController : ControllerBase
     public async Task<IActionResult> Update(int id, [FromBody] EventoInputModel eventoInputModel)
     {
         var evento = await _eventoService.UpdateAsync(id, eventoInputModel);
-        return Ok(evento);
+        return evento is not null ? Ok(evento) : NotFound();
     }
 
     [HttpDelete("{id}")]

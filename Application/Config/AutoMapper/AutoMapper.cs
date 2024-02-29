@@ -21,5 +21,8 @@ public class MappingProfile : Profile
 
         CreateMap<EventoInputModel, Evento>();
         CreateMap<Evento, EventoViewModel>();
+
+        CreateMap<SistemaInputModel, Sistema>();
+        CreateMap<Sistema, SistemaViewModel>();
     }
 }

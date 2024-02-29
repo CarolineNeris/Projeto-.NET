@@ -43,7 +43,7 @@ public PerfilController(IPerfilService perfilService)
     public async Task<IActionResult> Update(int id, [FromBody] PerfilInputModel perfilInputModel)
     {
         var perfil = await _perfilService.UpdateAsync(id, perfilInputModel);
-        return Ok(perfil);
+        return perfil is not null ? Ok(perfil) : NotFound();
     }
 
     [HttpDelete("{id}")]

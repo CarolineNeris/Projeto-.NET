@@ -44,7 +44,7 @@ public class UsuarioController : ControllerBase
     public async Task<IActionResult> Update(int id, [FromBody] UsuarioInputModel usuarioInputModel)
     {
         var usuario = await _usuarioService.UpdateAsync(id, usuarioInputModel);
-        return Ok(usuario);
+        return usuario is not null ? Ok(usuario) : NotFound();
     }
 
     [HttpDelete("{id}")]
