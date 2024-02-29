@@ -7,7 +7,7 @@ namespace TechMed.WebAPI.Controllers;
 
 [ApiController]
 [Route("perfil")]
-[Authorize]
+[Authorize(Roles = "Admin")]
 public class PerfilController : ControllerBase
 {
 private readonly IPerfilService _perfilService;
